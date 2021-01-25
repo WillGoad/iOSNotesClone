@@ -15,6 +15,8 @@
 		9B84903825BEE802001F8411 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B84903625BEE802001F8411 /* LaunchScreen.storyboard */; };
 		9B84904325BEE802001F8411 /* NotesCloneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B84904225BEE802001F8411 /* NotesCloneTests.swift */; };
 		9B84904E25BEE802001F8411 /* NotesCloneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B84904D25BEE802001F8411 /* NotesCloneUITests.swift */; };
+		9B84906725BEEE06001F8411 /* NoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B84906625BEEE06001F8411 /* NoteViewController.swift */; };
+		9B84906C25BEEE26001F8411 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B84906B25BEEE26001F8411 /* EntryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		9B84904925BEE802001F8411 /* NotesCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotesCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B84904D25BEE802001F8411 /* NotesCloneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesCloneUITests.swift; sourceTree = "<group>"; };
 		9B84904F25BEE802001F8411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B84906625BEEE06001F8411 /* NoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteViewController.swift; sourceTree = "<group>"; };
+		9B84906B25BEEE26001F8411 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				9B84903425BEE802001F8411 /* Assets.xcassets */,
 				9B84903625BEE802001F8411 /* LaunchScreen.storyboard */,
 				9B84903925BEE802001F8411 /* Info.plist */,
+				9B84906625BEEE06001F8411 /* NoteViewController.swift */,
+				9B84906B25BEEE26001F8411 /* EntryViewController.swift */,
 			);
 			path = NotesClone;
 			sourceTree = "<group>";
@@ -258,6 +264,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B84906725BEEE06001F8411 /* NoteViewController.swift in Sources */,
+				9B84906C25BEEE26001F8411 /* EntryViewController.swift in Sources */,
 				9B84903025BEE800001F8411 /* ViewController.swift in Sources */,
 				9B84902C25BEE800001F8411 /* AppDelegate.swift in Sources */,
 				9B84902E25BEE800001F8411 /* SceneDelegate.swift in Sources */,
